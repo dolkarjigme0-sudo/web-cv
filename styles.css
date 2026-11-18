@@ -1058,4 +1058,7 @@ body{background:#fff;color:var(--ink)}
 @keyframes location-mark-pulse{0%,100%{transform:scale(1);opacity:.75}50%{transform:scale(1.18);opacity:1}}
 @media(max-width:640px){.hero-location{margin-top:18px;font-size:9px}}
 @media(prefers-reduced-motion:reduce){.hero h1 .name-line:nth-child(2),.hero-location,.hero-location span{animation:none!important;opacity:1;filter:none;clip-path:none;transform:none}.hero h1 .name-line:nth-child(2){background-position:50% 50%}}
+.site-header{position:fixed;inset:0 0 auto;z-index:1000;padding:0;border:0;border-bottom:1px solid #e9e6dd;background:rgba(255,255,255,.96);backdrop-filter:blur(12px)}
+body{padding-top:78px}
+@media(max-width:640px){.site-header{padding:0}.header-inner{height:64px}.site-nav{top:63px}body{padding-top:64px}}
 
