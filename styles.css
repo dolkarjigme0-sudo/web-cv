@@ -1061,4 +1061,5 @@ body{background:#fff;color:var(--ink)}
 .site-header{position:fixed;inset:0 0 auto;z-index:1000;padding:0;border:0;border-bottom:1px solid #e9e6dd;background:rgba(255,255,255,.96);backdrop-filter:blur(12px)}
 body{padding-top:78px}
 @media(max-width:640px){.site-header{padding:0}.header-inner{height:64px}.site-nav{top:63px}body{padding-top:64px}}
+.focus-marquee{width:100%;margin-inline:0;border-radius:0;padding-block:12px 10px}
 
